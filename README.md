@@ -3,7 +3,7 @@
 # convolution_density_profile
 This program is to get well-aligned density profiles from trajectory with multi-components in molecular dynamics using convolution method under periodic boundary condition
 
-## prerequisites in python
+## Dependency
 * `numpy` and `scipy`: for numerical calculations
 * `mdtraj` (> version 1.9.1): to read trajectory and structure file
 

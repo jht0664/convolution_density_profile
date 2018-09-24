@@ -19,9 +19,9 @@ The idea is to implement convolution method in not only signal processing but al
 | object2 | wave packet with travelling time `t2` | density profile with travelling distance `d2` |
 | delay time or shift distance | `t2-t1` | `d2-d1` |
 | In real, | wave packet mixed with noise by environment | density profile with statistical noise due to small number of molecules |
-| In theory, | wave packet with sum of sine functions | density profile as sum of two tangent functions |
+| In theory, | wave packet with sum of sine functions | density profile composing sum of two tangent functions (rough interface) or two step functions (very flat interface) |
 
-Once we know all shift distances between any density profiles by convolution, we can align the density profiles accurately by shifting along the normal direction on interface plane (assummed 2D-plane), and then get well averaged density profile to get accurate density or concentration of phases 
+Once we know all shift distances between any density profiles by convolution, we can align the density profiles accurately by shifting along the normal direction on interface plane (assummed 2D-plane), and then get well averaged density profile to get accurate density or concentration of phases. Note that we use theoretical density profile with two step functions as standard to get optimal shift distance. 
 
 ## Need to some tests before applying for good results
 Basically, slicing method is necessary to get local densities of slabs which are parallel to interface plane. The thickness of slab is the half resolution to get optimal shifting distance for density profile. Thus, to get good result, small slab thickness is good choice.

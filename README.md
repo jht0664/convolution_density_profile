@@ -23,7 +23,7 @@ The idea is to implement convolution method in not only signal processing but al
 
 Once we know all shift distances between any density profiles by convolution, we can align the density profiles accurately by shifting along the normal direction on interface plane (assummed 2D-plane), and then get well averaged density profile to get accurate density or concentration of phases. Note that we use theoretical density profile with two step functions as standard to get optimal shift distance. 
 
-## Need to some tests before applying for good results
+## Tips: Need to do some trials for good results
 Basically, slicing method is necessary to get local densities of slabs which are parallel to interface plane. The thickness of slab is the half resolution to get optimal shifting distance for density profile. Thus, to get good result, small slab thickness is good choice.
 
 On the other side, if the small aggregation in the phase exists or your molecules are big enough, convolution might not work unless you increase slab thickness. For very small slab thickness, the density profile would be descrete, which leads wrong optimal shift distances. Thus, we recommend to check the effect of thickness of slab on density profile and coexistance properties. 

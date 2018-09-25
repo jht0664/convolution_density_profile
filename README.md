@@ -38,6 +38,7 @@ Also, your system should be large enough for density profile to be flat in each 
 ## Versions
 v1.0.0 upload my home code to github for polymer/ionic liquid system. 
 (see tutorial for such a three-component system - cation, anion, and neutral polymer)
+
 v1.1.0 add function for optimizing parameters tangent functions as a reference during convolution
 
 ## Citation

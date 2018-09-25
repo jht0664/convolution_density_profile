@@ -33,10 +33,12 @@ On the other side, if the small aggregation in the phase exists or your molecule
 
 ## Limitataion
 currently, I assume the system has only two phases under periodic boundary condition. If your system is in single phase (mixing) or three or more phases, please find alternative way by modifying this code or making your own code. 
+Also, your system should be large enough for density profile to be flat in each phase. If you have too wide area for interface in the density profile, the result (finding optimal shift distance) would be highly affected by a theoretical density profile, step function. Although the step function is far from a copy of realistic density profiles, the assumption that the flat region makes much more hits than that in interface region makes working. Instead of step function, tangent function probably may be good reference for convolution processing to get optimal shift distance in that the function reflects interface region. 
 
 ## Versions
 v1.0.0 upload my home code to github for polymer/ionic liquid system. 
 (see tutorial for such a three-component system - cation, anion, and neutral polymer)
+v1.1.0 add function for optimizing parameters tangent functions as a reference during convolution
 
 ## Citation
 Please cite the following article for convolution method:

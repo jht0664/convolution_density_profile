@@ -42,7 +42,7 @@ v1.1.0 add function for optimizing parameters tangent functions as a reference d
 
 ## Citation
 Please cite the following article for convolution method:
-> A simulation method for the phase diagram of complex fluid mixtures
-> Hyuntae Jung and   Arun Yethiraja)
-> The Journal of Chemical Physics 2018 148:24
+> A simulation method for the phase diagram of complex fluid mixtures, 
+> Hyuntae Jung and Arun Yethiraja, 
+> The Journal of Chemical Physics 2018, 148:24
 > https://aip.scitation.org/doi/abs/10.1063/1.5033958
